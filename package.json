@@ -1,0 +1,21 @@
+{
+  "name": "lol_x1",
+  "version": "0.0.1",
+  "description": "Api for accessing Riot Games open api in order to compare ranked status for two given summoner names.",
+  "main": "index.js",
+  "scripts": {
+    "test": "test",
+    "start": "node index.js",
+    "start-dev": "node-dev index.js"
+  },
+  "author": "Marcos Arantes da Silva",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^1.2.0",
+    "request": "^2.67.0",
+    "restify": "^4.0.3"
+  },
+  "devDependencies": {
+    "node-dev": "^2.7.1"
+  }
+}
